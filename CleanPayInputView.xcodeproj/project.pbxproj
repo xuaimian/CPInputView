@@ -13,6 +13,11 @@
 		6F17E88421F238C600A441AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F17E88321F238C600A441AB /* Assets.xcassets */; };
 		6F17E88721F238C600A441AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F17E88521F238C600A441AB /* LaunchScreen.storyboard */; };
 		6F17E88A21F238C600A441AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F17E88921F238C600A441AB /* main.m */; };
+		6F17E89221F23A0700A441AB /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F17E89121F23A0700A441AB /* TestViewController.m */; };
+		6F17E89C21F23A3C00A441AB /* UnderlineTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F17E89621F23A3B00A441AB /* UnderlineTextField.m */; };
+		6F17E89E21F23A3C00A441AB /* OutsideBorderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F17E89921F23A3B00A441AB /* OutsideBorderTextField.m */; };
+		6F17E8A121F23A6C00A441AB /* CleanPayTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F17E8A021F23A6C00A441AB /* CleanPayTextField.m */; };
+		6F4A636C21FE9B3C00691098 /* CPInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4A636B21FE9B3C00691098 /* CPInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		6F17E88621F238C600A441AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F17E88821F238C600A441AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F17E88921F238C600A441AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6F17E89021F23A0700A441AB /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		6F17E89121F23A0700A441AB /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6F17E89621F23A3B00A441AB /* UnderlineTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderlineTextField.m; sourceTree = "<group>"; };
+		6F17E89921F23A3B00A441AB /* OutsideBorderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutsideBorderTextField.m; sourceTree = "<group>"; };
+		6F17E89A21F23A3C00A441AB /* UnderlineTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderlineTextField.h; sourceTree = "<group>"; };
+		6F17E89B21F23A3C00A441AB /* OutsideBorderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutsideBorderTextField.h; sourceTree = "<group>"; };
+		6F17E89F21F23A6C00A441AB /* CleanPayTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CleanPayTextField.h; sourceTree = "<group>"; };
+		6F17E8A021F23A6C00A441AB /* CleanPayTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CleanPayTextField.m; sourceTree = "<group>"; };
+		6F4A636A21FE9B3C00691098 /* CPInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPInputView.h; sourceTree = "<group>"; };
+		6F4A636B21FE9B3C00691098 /* CPInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPInputView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +77,16 @@
 				6F17E87B21F238C400A441AB /* AppDelegate.m */,
 				6F17E87D21F238C400A441AB /* ViewController.h */,
 				6F17E87E21F238C400A441AB /* ViewController.m */,
+				6F4A636A21FE9B3C00691098 /* CPInputView.h */,
+				6F4A636B21FE9B3C00691098 /* CPInputView.m */,
+				6F17E89F21F23A6C00A441AB /* CleanPayTextField.h */,
+				6F17E8A021F23A6C00A441AB /* CleanPayTextField.m */,
+				6F17E89B21F23A3C00A441AB /* OutsideBorderTextField.h */,
+				6F17E89921F23A3B00A441AB /* OutsideBorderTextField.m */,
+				6F17E89A21F23A3C00A441AB /* UnderlineTextField.h */,
+				6F17E89621F23A3B00A441AB /* UnderlineTextField.m */,
+				6F17E89021F23A0700A441AB /* TestViewController.h */,
+				6F17E89121F23A0700A441AB /* TestViewController.m */,
 				6F17E88021F238C400A441AB /* Main.storyboard */,
 				6F17E88321F238C600A441AB /* Assets.xcassets */,
 				6F17E88521F238C600A441AB /* LaunchScreen.storyboard */,
@@ -141,9 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F17E8A121F23A6C00A441AB /* CleanPayTextField.m in Sources */,
 				6F17E87F21F238C400A441AB /* ViewController.m in Sources */,
 				6F17E88A21F238C600A441AB /* main.m in Sources */,
+				6F17E89221F23A0700A441AB /* TestViewController.m in Sources */,
+				6F17E89C21F23A3C00A441AB /* UnderlineTextField.m in Sources */,
 				6F17E87C21F238C400A441AB /* AppDelegate.m in Sources */,
+				6F4A636C21FE9B3C00691098 /* CPInputView.m in Sources */,
+				6F17E89E21F23A3C00A441AB /* OutsideBorderTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -273,7 +303,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LNJ4XU6M6Q;
 				INFOPLIST_FILE = CleanPayInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LNJ4XU6M6Q;
 				INFOPLIST_FILE = CleanPayInputView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
